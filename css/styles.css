@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* FUENTE */
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+
+:root {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+/* BACKGROUND-IMAGE */
+body {
+  background-image: url(https://images.pexels.com/photos/1972464/pexels-photo-1972464.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+/* NAVBAR Y FOOTER */
+header,
+footer {
+  background-color: #343233;
+  color: #f6f5f6;
+  text-align: center;
+  padding: 20px 0;
+  margin: 0px;
+  width: 100%;
+}
+
+/* MAIN */
+main {
+  padding: 20px;
+}
+
+/* SOBRE MI */
+.sobre-mi {
+  background-color: #f8efed;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.sobre-mi h2 {
+  text-align: center;
+  letter-spacing: 3px;
+  padding-bottom: 10px;
+  padding: 10 20px;
+}
+
+.sobre-mi p {
+  text-align: justify;
+  padding-left: 25px;
+  padding-right: 25px;
+  line-height: 1.6;
+}
+
+/* FORMACION */
+.formacion {
+  background-color: #f8efed;
+  width: 50%;
+  border-radius: 10px;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.formacion h2 {
+  background-color: #343233;
+  color: #f0f0f0;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.formacion ul {
+  list-style: none;
+  padding: 10px;
+  margin: 10px;
+}
+
+/* EXPERIENCIA */
+.experiencia {
+  background-color: #f8efed;
+  width: 50%;
+  border-radius: 10px;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.experiencia h2 {
+  background-color: #343233;
+  color: #f0f0f0;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.experiencia ul {
+  list-style: none;
+  padding: 10px;
+  margin: 10px;
+}
+
+/* IDIOMAS */
+.idiomas {
+  background-color: #f8efed;
+  width: 50%;
+  border-radius: 10px;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.idiomas h2 {
+  background-color: #343233;
+  color: #f0f0f0;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.tabla-idiomas {
+  background-color: #f8efed;
+  text-align: justify;
+  width: 90%;
+  margin: auto;
+  padding: 10px;
+}
+
+/* TABLAS */
+.tabla {
+  background-color: #f8efed;
+  text-align: justify;
+  width: 90%;
+  margin: auto;
+  padding: 10px;
+}
+
+td {
+  border: 1px solid rgba(88, 88, 88, 0.3);
+  padding: 10px;
+  text-align: center;
+  border-radius: 4px;
+}
+
+/* FOOTER */
+.logo-redes img {
+  width: 40px;
+  margin: 4px;
+}
